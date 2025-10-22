@@ -61,7 +61,7 @@ playwright>=1.40.0
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/sqller.git
+git clone https://github.com/virtual-viruz/sqller.git
 cd sqller
 ```
 
@@ -77,7 +77,7 @@ playwright install chromium
 
 ### 4. Verify Installation
 ```bash
-python sqller.py --help
+python sqller --help
 ```
 
 ---
@@ -86,12 +86,12 @@ python sqller.py --help
 
 ### Basic Scan
 ```bash
-python sqller.py -d example.com
+python sqller -d example.com
 ```
 
 ### Advanced Scan
 ```bash
-python sqller.py -d example.com --depth 5 --max-urls 200 -t 20
+python sqller -d example.com --depth 5 --max-urls 200 -t 20
 ```
 
 ### Command Line Options
@@ -109,23 +109,23 @@ python sqller.py -d example.com --depth 5 --max-urls 200 -t 20
 
 ### Example 1: Quick Scan
 ```bash
-python sqller.py -d testsite.com
+python sqller -d testsite.com
 ```
 
 ### Example 2: Deep Scan
 ```bash
-python sqller.py -d testsite.com --depth 5 --max-urls 300
+python sqller -d testsite.com --depth 5 --max-urls 300
 ```
 
 ### Example 3: High-Speed Scan
 ```bash
-python sqller.py -d testsite.com -t 30
+python sqller -d testsite.com -t 30
 ```
 
 ### Example 4: Subdomain Testing
 ```bash
 # Automatically includes subdomains
-python sqller.py -d example.com
+python sqller -d example.com
 # Tests: example.com, api.example.com, www.example.com, etc.
 ```
 
