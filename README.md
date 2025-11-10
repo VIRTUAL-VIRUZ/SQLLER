@@ -61,7 +61,7 @@ playwright>=1.40.0
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/virtual-viruz/sqller.git
+git clone https://github.com/7H3CYF4RX/sqller.git
 cd sqller
 ```
 
@@ -347,7 +347,7 @@ This project is licensed for **educational purposes only**.
 
 **MUHAMMED FARHAN**
 
-- GitHub: [@VIRTUAL-VIRUZ](https://github.com/VIRTUAL-VIRUZ)
+- GitHub: [@VIRTUAL-VIRUZ](https://github.com/7H3CYF4RX)
 - Twitter: [@7H3CYF4RX](https://twitter.com/7H3CYF4RX)
 
 ---
